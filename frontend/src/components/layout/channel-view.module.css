@@ -1,0 +1,23 @@
+.profile-pic {
+    border-radius: 50%;
+    height: 72px;
+}
+
+.page-info {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pp-container {
+    margin-right: 20px;
+}
+
+.channel-name {
+    display: block;
+}
+
+.stream-title {
+    display: block;
+}

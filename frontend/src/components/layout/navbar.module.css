@@ -1,0 +1,41 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.brand {
+    color: red;
+    font-size: 16px;
+}
+
+.items,
+.brand {
+    display: inline-flex;
+    align-content: center;
+}
+
+.brand {
+    margin-right: 20px;
+}
+
+.item {
+    font-size: 18px;
+    margin: 0 10px;
+    transition: .1s all ease-in-out;
+    color: #333;
+    text-decoration: none;
+}
+
+.item:hover {
+    cursor: pointer;
+    color: red;
+    transform: scale(1.1);
+}

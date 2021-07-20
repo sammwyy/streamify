@@ -1,0 +1,56 @@
+.wrapper {
+    margin: 20px;
+    display: inline-block;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+    z-index: -10;
+}
+
+.wrapper:hover {
+    transform: scale(1.1);
+}
+
+.thumb {
+    background-image: url('http://localhost:3000/offline.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 320px;
+}
+
+.viewers {
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    color: #444;
+    text-align: left;
+}
+
+.stream-info {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.pp-container {
+    margin-right: 15px;
+}
+
+.channel-name {
+    display: block;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.stream-title {
+    display: block;
+    text-align: left;
+}

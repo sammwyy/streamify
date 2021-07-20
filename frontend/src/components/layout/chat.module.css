@@ -1,0 +1,45 @@
+.chat {
+    margin-left: 30px;
+    width: 400px;   
+    max-width: 400px;
+    padding: 10px;
+}
+
+.history {
+    height: calc(720px - 120px);
+}
+
+.message {
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+.author {
+    color: red;
+    font-weight: bold;
+}
+
+.input-field {
+    background-color: #444;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 90%;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.send-btn {
+    margin-top: 10px;
+    padding: 10px;
+    width: 90px;
+    background-color: #444;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    color: red;
+}
