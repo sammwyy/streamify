@@ -48,7 +48,7 @@ const nms = new NodeMediaServer({
       mediaroot: './media',
     },
     trans: {
-        ffmpeg: "C:/codecs/ffmpeg.exe",
+        ffmpeg: process.env.FFMPEG,
         tasks: [
             {
                 app: 'live', // or other 
